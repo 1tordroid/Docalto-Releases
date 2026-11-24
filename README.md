@@ -108,11 +108,13 @@ Light theme
 <p align="center">
   <img src="assets/screenshots/home-light.png" width="200" alt="Home with the Scan button in the bottom bar">
   <img src="assets/screenshots/scan-light.png" width="200" alt="Scan: a document to PDF, or a QR code or barcode">
-  <img src="assets/screenshots/link-light.png" width="200" alt="A scanned link asks before it opens">
-  <img src="assets/screenshots/tools-light.png" width="200" alt="All Tools, grouped by job">
+  <img src="assets/screenshots/afterscan-light.png" width="200" alt="After a scan: save as PDF, extract text, sign, compress and more">
+  <img src="assets/screenshots/edit-light.png" width="200" alt="Edit PDF: tap any outlined text to change it">
 </p>
 
 <p align="center">
+  <img src="assets/screenshots/link-light.png" width="200" alt="A scanned link asks before it opens">
+  <img src="assets/screenshots/tools-light.png" width="200" alt="All Tools, grouped by job">
   <img src="assets/screenshots/whatsnew-light.png" width="200" alt="What's new, with the Why Docalto card">
   <img src="assets/screenshots/settings-light.png" width="200" alt="Settings">
   <img src="assets/screenshots/about-light.png" width="200" alt="About: Tordroid, Visit website, Contact support">
@@ -122,21 +124,15 @@ Light theme
 <summary>Dark theme</summary>
 
 <p align="center">
-  <img src="assets/screenshots/home-dark.png" width="200" alt="Home with the Scan button in the bottom bar">
-  <img src="assets/screenshots/scan-dark.png" width="200" alt="Scan: a document to PDF, or a QR code or barcode">
-  <img src="assets/screenshots/link-dark.png" width="200" alt="A scanned link asks before it opens">
-  <img src="assets/screenshots/tools-dark.png" width="200" alt="All Tools, grouped by job">
-</p>
-
-<p align="center">
-  <img src="assets/screenshots/whatsnew-dark.png" width="200" alt="What's new, with the Why Docalto card">
-  <img src="assets/screenshots/settings-dark.png" width="200" alt="Settings">
-  <img src="assets/screenshots/about-dark.png" width="200" alt="About: Tordroid, Visit website, Contact support">
+  <img src="assets/screenshots/home-dark.png" width="200" alt="Home, dark theme">
+  <img src="assets/screenshots/afterscan-dark.png" width="200" alt="After a scan, dark theme">
+  <img src="assets/screenshots/edit-dark.png" width="200" alt="Edit PDF, dark theme">
+  <img src="assets/screenshots/settings-dark.png" width="200" alt="Settings, dark theme">
 </p>
 
 </details>
 
-<sub>Screenshots from version 2.0.1 on an Android phone: Home, Scan, the QR link prompt, All Tools, What's new, Settings and About.</sub>
+<sub>Screenshots of Docalto 2.0.1 from Google Play, taken on a OnePlus 12: Home, Scan, the next steps after a scan, Edit PDF, the QR link prompt, All Tools, What's new, Settings and About.</sub>
 
 ## Get Docalto
 
