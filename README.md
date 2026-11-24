@@ -5,7 +5,7 @@
 <h1 align="center">Docalto</h1>
 
 <p align="center">
-  <b>PC-class PDF tools in one Android app. Offline on your phone, no account, no upload.</b><br>
+  <b>PC-class PDF tools in one Android app. Offline on your phone by default, no account.</b><br>
   Read, edit, sign, scan, compress and convert PDFs and Office files. By <a href="https://github.com/1tordroid">Tordroid</a>.
 </p>
 
@@ -31,13 +31,13 @@
   <img src="assets/feature-graphic.png" width="820" alt="Docalto feature graphic">
 </p>
 
-Docalto puts your everyday document jobs in one fast app: read, edit, sign, scan, compress, merge, split and convert PDFs, and open Word, Excel and PowerPoint files too. Your documents are handled on your phone, not uploaded. There is no account. Most tools are free; a few use one short ad, and Premium removes the ads and the daily limit. While Docalto is in testing, PRO tools are free to use.
+Docalto puts your everyday document jobs in one fast app: read, edit, sign, scan, compress, merge, split and convert PDFs, and open Word, Excel and PowerPoint files too. Your documents are handled on your phone and not uploaded unless you turn on an online feature. There is no account. Most tools are free; a few use one short ad, and Premium removes the ads and the daily limit. While Docalto is in testing, PRO tools are free to use.
 
 > This repository holds Docalto's release notes, changelog and screenshots. It has **no source code and no APK**. Docalto is available only from Google Play.
 
 ## Why Docalto
 
-**PC-class PDF tools in one Android app, running offline on the phone with no account and no upload, which very few apps offer.**
+**PC-class PDF tools in one Android app, running offline on the phone by default with no account, which very few apps offer.**
 
 Many PDF websites upload your file to merge, split, compress or convert it. Many desktop programs already do those jobs offline on a computer. Docalto runs that kind of toolkit on an Android phone, on the device.
 
@@ -46,8 +46,26 @@ Many PDF websites upload your file to merge, split, compress or convert it. Many
 - **File Rescue** and a wide image-format list (RAW previews, Photoshop, JPEG XL, TIFF and older formats).
 - **Offline signature checks** against India's CCA roots, including many Aadhaar PDFs.
 - **On-device AI:** Gemini Nano summaries and answers when the model is on the phone, with a built-in fallback on every other phone.
+- **New in 2.1.0:** Study tools (flashcards, quiz and outline from a PDF), text reading for 11 more languages such as Arabic, Urdu, Bengali, Tamil, Telugu and Russian, and a Pro Camera with Macro and Night.
+
+### Online and AI, honestly
+
+- **Offline:** every tool, text reading, summaries (Gemini Nano, or key sentences on other phones), Ask this PDF, Study tools and signatures.
+- **With your own AI key** (Gemini, Grok, Claude or ChatGPT) and online turned on: chat with PDF, online summary, rewrite, translation and page text reading. Docalto asks before the first use.
+- **Coming soon** (needs a Docalto server): exact Office layout, sign by link, review by link, and online AI without your own key.
 
 Full, sourced comparison (as of November 2026): [COMPARISON.md](COMPARISON.md). Docalto has no iOS or desktop app and no cloud sync, and it does not replace a desktop suite like PDF24 Creator or a self-hosted Stirling PDF.
+
+## New in 2.1.0
+
+- **Seven colour themes**, and **Recent** at the bottom of Home with View more. Settings is one tap away on every tab.
+- **Study tools:** flashcards, a quiz and an outline made on the phone from a PDF.
+- **Text reading for 11 more languages**, including Arabic, Urdu, Bengali, Tamil, Telugu and Russian, after a one-time download.
+- **Pro Camera** with Macro, Night and adjustable corners.
+- **Measure, Reading view, fillable forms, Pictures in PDF, Web page to PDF**, a visual Compare report and review file (XFDF) import.
+- **PDF to Word, Excel and PowerPoint** export every page.
+- Root or hook frameworks on the phone no longer stop the app; only tampering with Docalto does.
+- What's new and Why Docalto in all 15 app languages.
 
 ## New in 2.0.1
 
@@ -103,6 +121,26 @@ All versions: [CHANGELOG.md](CHANGELOG.md) · [Releases](https://github.com/1tor
 
 ## Screenshots
 
+Docalto 2.1.0
+
+<p align="center">
+  <img src="assets/screenshots/2.1.0/home.png" width="200" alt="Home">
+  <img src="assets/screenshots/2.1.0/recent.png" width="200" alt="Recent files at the bottom of Home, with View more">
+  <img src="assets/screenshots/2.1.0/study.png" width="200" alt="Study tools: flashcards">
+  <img src="assets/screenshots/2.1.0/ocr.png" width="200" alt="Text reading in more scripts">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/2.1.0/camera.png" width="200" alt="Pro Camera with Macro and Night">
+  <img src="assets/screenshots/2.1.0/themes.png" width="200" alt="Colour themes">
+  <img src="assets/screenshots/2.1.0/why.png" width="200" alt="Why choose Docalto">
+  <img src="assets/screenshots/2.1.0/why-ai.png" width="200" alt="Online and AI, honestly">
+  <img src="assets/screenshots/2.1.0/whatsnew.png" width="200" alt="What's new in 2.1.0">
+</p>
+
+<details>
+<summary>Docalto 2.0.1 screenshots</summary>
+
 Light theme
 
 <p align="center">
@@ -134,9 +172,13 @@ Light theme
 
 <sub>Screenshots of Docalto 2.0.1 from Google Play, taken on a OnePlus 12: Home, Scan, the next steps after a scan, Edit PDF, the QR link prompt, All Tools, What's new, Settings and About.</sub>
 
+</details>
+
+<sub>2.1.0 screenshots were taken on a OnePlus 12. The Pro Camera picture is the app's camera screen drawn over a sample invoice.</sub>
+
 ## Get Docalto
 
-Docalto **2.0.1** is in **closed testing on Google Play** and will be open to everyone soon. It is distributed only through Google Play; there is no APK download.
+Docalto **2.1.0** is in **internal and closed testing on Google Play** and will be open to everyone soon. It is distributed only through Google Play; there is no APK download.
 
 ### Join testing
 
@@ -147,7 +189,7 @@ Requires Android 8.0 or later.
 
 ## Privacy
 
-Viewing, editing, converting, scanning, OCR and translation run on the device. Docalto never uploads, shares or collects your documents, and there is no account. The free version shows Google AdMob ads, which may collect device data; Premium has no ads. Full details: [privacy policy](https://docalto.tordroid.com/privacy/) · [terms](https://docalto.tordroid.com/terms/) · [SECURITY.md](SECURITY.md).
+Viewing, editing, converting, scanning, OCR and translation run on the device. Docalto does not upload, share or collect your documents unless you turn on an online feature and agree, and there is no account. The free version shows Google AdMob ads, which may collect device data; Premium has no ads. Full details: [privacy policy](https://docalto.tordroid.com/privacy/) · [terms](https://docalto.tordroid.com/terms/) · [SECURITY.md](SECURITY.md).
 
 ## Support
 

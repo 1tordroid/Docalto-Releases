@@ -1,6 +1,30 @@
 # Changelog
 
-All user-facing changes to Docalto, newest first. Docalto is in closed testing on Google Play. Per-version notes are in [release-notes/](release-notes/) and on the [Releases](https://github.com/1tordroid/Docalto-Releases/releases) page. The changelog is also on the website: https://docalto.tordroid.com/changelog/
+All user-facing changes to Docalto, newest first. Docalto is in testing on Google Play. Per-version notes are in [release-notes/](release-notes/) and on the [Releases](https://github.com/1tordroid/Docalto-Releases/releases) page. The changelog is also on the website: https://docalto.tordroid.com/changelog/
+
+## 2.1.0
+
+versionCode 12. Released 24 November 2026 to internal and closed testing on Google Play.
+
+### What's new
+
+- **Seven colour themes:** Lime, Ocean, Rose, Amber, Violet, Mint and Coral, in Settings next to the app icon.
+- **Recent on Home:** your last 3 files at the bottom of Home, with View more. Settings is one tap away on every tab.
+- **Study tools:** flashcards, a quiz and an outline map made on the phone from a PDF's own text, with Save study notes.
+- **More reading scripts:** text reading for Arabic, Urdu, Bengali, Tamil, Telugu, Gujarati, Punjabi, Kannada, Malayalam, Odia and Russian. Each is a one-time download after you agree, then works offline.
+- **Pro Camera:** Macro, Night and adjustable corners, plus Scanner Enhance.
+- **New tools:** Measure (distance, area and perimeter at a drawing scale), Reading view, Make a fillable form, Pictures in PDF, Web page to PDF, a visual change report in Compare, and review file (XFDF) import.
+- **Office export:** PDF to Word, Excel and PowerPoint now export every page.
+- **Fewer false blocks:** root, LSPosed or Xposed on the phone no longer stop the app; only tampering with Docalto itself does.
+- **Your language:** What's new shows translated highlights in all 15 app languages, and Why Docalto has new rows and an online and AI section in every language.
+
+### Online and AI, honestly
+
+- **Offline:** every tool, text reading, summaries (Gemini Nano on phones that have it, key sentences on others), Ask this PDF, Study tools and signatures.
+- **With your own AI key** (Gemini, Grok, Claude or ChatGPT) and online turned on: chat with PDF, online summary, rewrite, translation and page text reading. Docalto asks before the first use; the key is encrypted on the phone and never backed up.
+- **Coming soon** (needs a Docalto server): exact Office layout, sign by link, review by link, and online AI without your own key. These are marked Coming soon in the app and do nothing online.
+
+Full list: https://docalto.tordroid.com/changelog/#v2-1-0
 
 ## 2.0.1
 
