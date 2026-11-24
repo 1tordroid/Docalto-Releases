@@ -103,24 +103,44 @@ All versions: [CHANGELOG.md](CHANGELOG.md) · [Releases](https://github.com/1tor
 
 ## Screenshots
 
+Light theme
+
 <p align="center">
-  <img src="assets/screenshots/1-home.png" width="200" alt="Home with the All Tools row">
-  <img src="assets/screenshots/2-files.png" width="200" alt="My Files: every document in one place">
-  <img src="assets/screenshots/3-flow.png" width="200" alt="Flow: several tools on one file">
-  <img src="assets/screenshots/4-edit.png" width="200" alt="Edit text and mark up">
+  <img src="assets/screenshots/home-light.png" width="200" alt="Home with the Scan button in the bottom bar">
+  <img src="assets/screenshots/scan-light.png" width="200" alt="Scan: a document to PDF, or a QR code or barcode">
+  <img src="assets/screenshots/link-light.png" width="200" alt="A scanned link asks before it opens">
+  <img src="assets/screenshots/tools-light.png" width="200" alt="All Tools, grouped by job">
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/5-convert.png" width="200" alt="Convert to and from Office">
-  <img src="assets/screenshots/6-compress.png" width="200" alt="Compress to the size you need">
-  <img src="assets/screenshots/7-home-dark.png" width="200" alt="Dark theme">
+  <img src="assets/screenshots/whatsnew-light.png" width="200" alt="What's new, with the Why Docalto card">
+  <img src="assets/screenshots/settings-light.png" width="200" alt="Settings">
+  <img src="assets/screenshots/about-light.png" width="200" alt="About: Tordroid, Visit website, Contact support">
 </p>
 
-<sub>Screenshots from version 2.0.0 on an Android phone. Screenshots of the 2.0.1 Scan button and scan screens will be added soon.</sub>
+<details>
+<summary>Dark theme</summary>
+
+<p align="center">
+  <img src="assets/screenshots/home-dark.png" width="200" alt="Home with the Scan button in the bottom bar">
+  <img src="assets/screenshots/scan-dark.png" width="200" alt="Scan: a document to PDF, or a QR code or barcode">
+  <img src="assets/screenshots/link-dark.png" width="200" alt="A scanned link asks before it opens">
+  <img src="assets/screenshots/tools-dark.png" width="200" alt="All Tools, grouped by job">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/whatsnew-dark.png" width="200" alt="What's new, with the Why Docalto card">
+  <img src="assets/screenshots/settings-dark.png" width="200" alt="Settings">
+  <img src="assets/screenshots/about-dark.png" width="200" alt="About: Tordroid, Visit website, Contact support">
+</p>
+
+</details>
+
+<sub>Screenshots from version 2.0.1 on an Android phone: Home, Scan, the QR link prompt, All Tools, What's new, Settings and About.</sub>
 
 ## Get Docalto
 
-Docalto is in **closed testing on Google Play** and will be open to everyone soon. It is distributed only through Google Play; there is no APK download.
+Docalto **2.0.1** is in **closed testing on Google Play** and will be open to everyone soon. It is distributed only through Google Play; there is no APK download.
 
 ### Join testing
 
