@@ -1,33 +1,34 @@
 # Changelog
 
-All user-facing changes to Docalto, newest first. Docalto is in testing on Google Play. Per-version notes are in [release-notes/](release-notes/) and on the [Releases](https://github.com/1tordroid/Docalto-Releases/releases) page. The changelog is also on the website: https://docalto.tordroid.com/changelog/
+All user-facing changes to Docalto, newest first. Per-version notes are in [release-notes/](release-notes/) and on the [Releases](https://github.com/1tordroid/Docalto-Releases/releases) page. The changelog is also on the website: https://docalto.tordroid.com/
+
+This repository starts at **1.1.0** (versionCode 2), imported on 1 November 2026. There is no 1.0.x tag or version name in the git history. Version codes that shipped under a version name are listed with that name. **1.3.0** was development work on this branch. It was renamed to **2.0.0** before any 1.3.0 release.
 
 ## 2.6.0
 
-versionName **2.6.0**, versionCode **16**. 25 November 2026.
+versionName **2.6.0**, versionCode **16**. 25 November 2026 (Asia/Calcutta, IST).
 
-- Studio Clean home, files, tools and settings, with Light theme and the phone's font on by default.
-- Online mode is off until you choose Continue. A switch on Home and in Settings covers AI, translation and cloud tools.
-- Use your own key for Gemini, Claude, OpenAI, xAI, or an OpenAI-compatible service. Keys stay encrypted on the phone.
-- Gemini keys: both older AIza keys and new AI Studio auth keys (AQ.) are accepted. Gemini always uses the native Google API. The model list is fetched live, the newest stable flash is the default, and a retired model is replaced automatically.
-- Edit text in photos and scans, with on-device OCR and inpainting, and an optional style reading when Online mode is on.
-- AI steps in flows, a clearer flow builder, and new ready-made flows.
-- Terms of use accepted on first run and from About. The licence forbids commercial reuse, rebranding, or use of the code, design or assets in other apps without written permission.
-- A modified or unofficial copy is blocked, with links to Google Play and tordroid.com. Root, a failed integrity check alone, or a debug build signed with our key does not trigger this.
-- AI recommends on Home: next steps for a recent file, such as OCR for a scan or compressing a large file, worked out on the phone. "Why this?" explains it and "Not now" hides it for that file.
+### Highlights
+
+- **Edit text in photos:** change words in a scanned page or a photo in your PDF, and keep the original font, size and colour. OCR and inpainting run on the phone. Style reading is available when Online mode is on.
+- **Online AI, off until you allow it:** a switch on Home and in Settings covers AI, translation and cloud tools. When you turn it on, AI can step into tools, flows and search. Docalto asks before it goes online.
+- **Your own AI key:** Gemini, Claude, OpenAI, Grok (xAI), or an OpenAI-compatible model. Keys stay encrypted on the phone. No Docalto account. Gemini accepts both older AIza keys and new AI Studio auth keys (AQ.). Gemini always uses the native Google API. The model list is fetched live, the newest stable flash is the default, and a retired model is replaced automatically.
+
+### Also in this release
+
+- A cleaner Home, Files, Tools and Settings, in light or dark, with the phone's font on by default.
+- AI recommends the next step for a recent file, worked out on the phone. "Why this?" explains it, and "Not now" hides it for that file.
 - My recommendation on Compress: a suggested level with a before and after size estimate, Use this or Keep mine.
-- Search covers every tool, all files, recents and flows, by text or voice. A request that names tools runs in one go, or can go to the AI assistant, which asks before going online.
-- Home widget for Quick Scan and Recent files, and app shortcuts for Scan, Edit image text and Search.
-- Password-protected local backup of settings and flows. Files, keys and purchases are not included.
-- A short "What's new in 2.6" sheet for people updating from 2.5, and a three-screen first-run tour.
+- Search every tool, file, recent and flow by voice or text. A request that names tools can run in one go, or go to the AI assistant, which asks before going online.
+- AI steps in flows, a clearer flow builder, and new ready-made flows.
+- A Home widget for Quick Scan and Recent files, and app shortcuts for Scan, Edit image text and Search.
+- An encrypted local copy of your work, unfinished jobs, flows and settings in Documents/Docalto. After a clear data or a reinstall, Docalto can restore it, or delete it after you confirm.
+- A password-protected local backup of settings and flows. Files, keys and purchases are not included.
+- 75 tools in All Tools. A short What's new sheet for people updating from 2.5, and a three-screen first-run tour.
+- When you are online, Docalto checks Google Play for updates. If a newer version exists, or no check has succeeded for 45 days, it asks you to update first. Your files are never touched by this, and root alone never blocks the app.
+- A modified or unofficial copy is blocked, with links to Google Play and tordroid.com. Root, a failed integrity check alone, or a debug build signed with our key does not trigger this.
+- Terms of use are accepted on first run and from About. The licence forbids commercial reuse, rebranding, or use of the code, design or assets in other apps without written permission.
 - If the app closes unexpectedly, a short report can be kept on the phone and shared by hand; nothing is sent on its own.
-- Automatic encrypted backup of your Docalto documents, unfinished work, flows and settings in Documents/Docalto. After a clear data or a reinstall, Docalto offers to restore it, showing the date and the number of files and projects, or to delete it after you confirm.
-- Docalto checks Google Play for updates whenever you are online. If a newer version exists, or no check has succeeded for 45 days, it asks you to update first. Your files are never touched by this, and root alone never blocks the app.
-
-
-This repository starts at **1.1.0** (versionCode 2), imported on 1 November 2026. There is no 1.0.x tag or version name in the git history.
-
-Version codes that shipped under a version name are listed with that name. **1.3.0** was development work on this branch. It was renamed to **2.0.0** before any 1.3.0 release. Tag `v1.2.0` points at `9d94be6` on `main`. Tag `v2.0.0` points at `031eeaa`, the commit that set the 2.0.0 name. The closed-testing build also includes the later commits on `feature-upgrade`.
 
 ## 2.5.1
 

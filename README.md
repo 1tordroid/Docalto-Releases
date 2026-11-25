@@ -5,8 +5,8 @@
 <h1 align="center">Docalto</h1>
 
 <p align="center">
-  <b>PC-class PDF tools in one Android app. Offline on your phone by default, no account.</b><br>
-  Read, edit, sign, scan, compress and convert PDFs and Office files. By <a href="https://github.com/1tordroid">Tordroid</a>.
+  <b>Edit text in PDF photos. Keep the original look.</b><br>
+  Turn on Online AI when you want it — it stays off until you allow it. Bring your own key for Gemini, Claude, OpenAI, Grok, or an OpenAI-compatible model. 75 tools, on your phone. No account. No upload. By <a href="https://github.com/1tordroid">Tordroid</a>.
 </p>
 
 <p align="center">
@@ -28,54 +28,38 @@
 </p>
 
 <p align="center">
-  <img src="assets/feature-graphic.png" width="820" alt="Docalto feature graphic">
+  <img src="assets/feature-graphic.png" width="820" alt="Docalto 2.6.0: edit photo text, optional Online AI, and your own AI key">
 </p>
 
-Docalto puts your everyday document jobs in one fast app: read, edit, sign, scan, compress, merge, split and convert PDFs, and open Word, Excel and PowerPoint files too. Your documents are handled on your phone and not uploaded unless you turn on an online feature. There is no account. Most tools are free; a few use one short ad, and Premium removes the ads and the daily limit. While Docalto is in testing, PRO tools are free to use.
+1. **Edit text in photos.** Change words in a scanned page or a photo in your PDF, and keep the original font, size and colour. OCR and inpainting run on the phone.
+2. **Online AI, off until you allow it.** A switch covers AI, translation and cloud tools. When you turn it on, AI can step into tools, flows and search.
+3. **Your own AI key.** Gemini, Claude, OpenAI, Grok (xAI), or an OpenAI-compatible model. Keys stay encrypted on the phone. No Docalto account, and documents are not uploaded.
 
-> This repository holds Docalto's release notes, changelog and screenshots. It has **no source code and no keys**. Each release from 2.6.0 has the Play-signed universal APK, the same file Google Play delivers, so Google Play updates install over it.
+The rest of the 2.6.0 toolkit, including Flow, backup, the update check and 75 All Tools entries, is listed below.
+
+> This repository holds Docalto's release notes, changelog, comparison and screenshots. It has **no source code and no keys**. Each release from 2.6.0 has the Play-signed universal APK, the same file Google Play delivers, so Google Play updates install over it.
 
 ## Why Docalto
 
-**PC-class PDF tools in one Android app, running offline on the phone by default with no account, which very few apps offer.**
+Docalto is an offline-first PDF toolkit and document scanner for Android. There is no account, and documents are not uploaded unless you turn on an online feature. Among the leading Android document apps compared in November 2026, we did not find this combination in the same form:
 
-Many PDF websites upload your file to merge, split, compress or convert it. Many desktop programs already do those jobs offline on a computer. Docalto runs that kind of toolkit on an Android phone, on the device.
+- Edit text in photos and scans on the phone, keeping the original look.
+- Online AI that can help in tools, flows and search, off until you allow it, with a key you supply for Gemini, Claude, OpenAI or xAI.
+- Plus File Rescue and rare image formats, a labelled fill for a cut-off photo, and offline signature checks against India's CCA roots.
 
-- **Desktop-class jobs on the phone:** split by size, pages on one sheet, booklet order, PDF/A, compare and repair, all on device. Common on desktop, uncommon in an Android app that needs no account.
-- **Flow:** several tools in one run on the phone. Similar workflows elsewhere run in the cloud or on a server you host.
-- **File Rescue** and a wide image-format list (RAW previews, Photoshop, JPEG XL, TIFF and older formats).
-- **Offline signature checks** against India's CCA roots, including many Aadhaar PDFs.
-- **On-device AI:** Gemini Nano summaries and answers when the model is on the phone, with a built-in fallback on every other phone.
-- **New in 2.6.0:** AI recommends, a compression tip with before and after sizes, voice search across tools and files, and editing text in photos.
-- **New in 2.1.0:** Study tools (flashcards, quiz and outline from a PDF), text reading for 11 more languages such as Arabic, Urdu, Bengali, Tamil, Telugu and Russian, and a Pro Camera with Macro and Night.
-
-### Online and AI, honestly
-
-- **Offline:** every tool, text reading, summaries (Gemini Nano, or key sentences on other phones), Ask this PDF, Study tools and signatures.
-- **With your own AI key** (Gemini, Claude, OpenAI, xAI or an OpenAI-compatible service) and online turned on: chat with PDF, online summary, rewrite, translation and page text reading. Docalto asks before the first use.
-- **Coming soon** (needs a Docalto server): exact Office layout, sign by link, review by link, and online AI without your own key.
-
-Full, sourced comparison (as of November 2026): [COMPARISON.md](COMPARISON.md). Docalto has no iOS or desktop app and no cloud sync, and it does not replace a desktop suite like PDF24 Creator or a self-hosted Stirling PDF.
+This is not a claim that no other product on earth has a related function. These tools are common on computers and on cloud websites. A full, sourced comparison (as of November 2026): [COMPARISON.md](COMPARISON.md). Docalto has no iOS or desktop app and no cloud sync, and it does not replace a desktop suite or a full office suite.
 
 ## New in 2.6.0
 
-- **A cleaner design** for Home, Files, Tools and Settings, light or dark, with the phone's own font.
-- **AI recommends:** Home suggests the next step for a recent file, such as OCR for a scan or compressing a large file, worked out on the phone.
-- **My recommendation:** Compress suggests a level and shows the size before and after.
-- **Search by voice or text** across every tool, all files, recents and flows. Say "compress and share" and it runs in one go, or ask AI.
-- **Edit text in photos and scans.**
-- **Your own AI key** for Gemini (AIza and AQ. keys), Claude, OpenAI or xAI. Online mode stays off until you allow it, and models are picked live.
-- **Home widget, app shortcuts** and a password-protected **settings backup**.
-- Terms of use on first run; unofficial copies are blocked with links to Google Play.
-- **Encrypted backup of your documents** and unfinished work in Documents/Docalto on the phone, offered for restore after a reinstall (Restore, or Delete after you confirm).
-- **How updates work:** when online, Docalto checks Google Play. If a newer version exists, or no check has succeeded for 45 days, the app asks you to update first. Your files are never deleted or changed, and root alone never blocks the app.
-
-<p align="center">
-  <img src="assets/screenshots/2.6.0/01-home.png" width="200" alt="Home with AI recommends">
-  <img src="assets/screenshots/2.6.0/02-search.png" width="200" alt="Search by voice or text">
-  <img src="assets/screenshots/2.6.0/05-compress-tip.png" width="200" alt="My recommendation on Compress">
-  <img src="assets/screenshots/2.6.0/03-tools.png" width="200" alt="All tools">
-</p>
+- **Edit text in photos:** change words in a scanned page or a photo in your PDF, and keep the original font, size and colour. OCR and inpainting run on the phone. Style reading is available when Online mode is on.
+- **Online AI, off until you allow it:** a switch on Home and in Settings covers AI, translation and cloud tools. When you turn it on, AI can step into tools, flows and search.
+- **Your own AI key:** Gemini, Claude, OpenAI, Grok (xAI), or an OpenAI-compatible model. The model list is fetched live. Keys stay encrypted on the phone. No Docalto account.
+- A cleaner Home, Files, Tools and Settings, in light or dark, with the phone's font on by default.
+- AI recommends the next step for a recent file, worked out on the phone. "Why this?" explains it. Compress can suggest a level with a before and after size.
+- Search every tool, file, recent and flow by voice or text.
+- A Home widget for Quick Scan and Recent files, and app shortcuts for Scan, Edit image text and Search.
+- An encrypted local copy of your work in Documents/Docalto, which you can restore after a reinstall.
+- 75 tools in All Tools. When you are online, Docalto checks Google Play for updates. If a newer version exists, or no check has succeeded for 45 days, it asks you to update first. Your files are never touched by this.
 
 ### Checksums for 2.6.0
 
@@ -118,7 +102,7 @@ All versions: [CHANGELOG.md](CHANGELOG.md) · [Releases](https://github.com/1tor
 - Night and sepia modes. Read aloud with an offline voice, plain-text view. Select text on the page, then copy or translate it.
 
 **Edit and sign**
-- Edit existing text in its original font, find and replace, AI scan to edit text in scanned pages.
+- Edit existing text in its original font, find and replace, and edit text in photos and scans inside a PDF while keeping the original look.
 - Pen, highlight, underline, strikethrough, text, shapes, arrows, notes, whiteout. Markup removal in one step.
 - Your signature, remembered. Digital ID signatures, with an optional timestamp (only a hash is sent).
 
@@ -130,15 +114,16 @@ All versions: [CHANGELOG.md](CHANGELOG.md) · [Releases](https://github.com/1tor
 **Compress**
 - Three PDF levels, photos by quality or size, or hit an exact size like 200 KB for forms.
 
-**Smart tools (offline AI)**
+**Smart tools and Online AI**
 - Summary and Ask this PDF, key info (dates, amounts, invoice numbers), auto-redact personal details, read handwriting, OCR and translate on the phone, smart file names.
+- When you turn Online mode on, AI can step into tools, flows and search. Use your own key for Gemini, Claude, OpenAI, Grok, or an OpenAI-compatible model.
 
 **Flow and My Files**
 - Flow runs several tools on one file, with ready-made flows and your own.
 - My Files: one library for your documents, find words across recent PDFs.
 
 **Almost any picture**
-- JPG, PNG, WebP, GIF, HEIC, AVIF, JPEG 2000, JPEG XL, every TIFF page, Photoshop, SVG, EMF, WMF, camera RAW previews and older professional formats. File Rescue for damaged files.
+- JPG, PNG, WebP, GIF, HEIC, AVIF, JPEG 2000, JPEG XL, every TIFF page, Photoshop, SVG, EMF, WMF, camera RAW previews and older professional formats. File Rescue for damaged files. A fill for a cut picture is always marked "Filled in, not recovered".
 
 **Security**
 - Password-protect PDFs (AES-256), remove a password you know, repair damaged PDFs, remove hidden details.
@@ -149,7 +134,32 @@ All versions: [CHANGELOG.md](CHANGELOG.md) · [Releases](https://github.com/1tor
 
 ## Screenshots
 
-Docalto 2.6.0
+Docalto 2.6.0 — highlights
+
+<p align="center">
+  <img src="assets/screenshots/2.6.0/en/01-phototext.png" width="180" alt="Edit text in a photo inside a PDF, keeping the original look">
+  <img src="assets/screenshots/2.6.0/en/02-online-ai.png" width="180" alt="Online AI stays off until you allow it, and can help in tools and search">
+  <img src="assets/screenshots/2.6.0/en/03-api-key.png" width="180" alt="Bring your own Gemini, Claude, OpenAI or Grok key">
+  <img src="assets/screenshots/2.6.0/en/04-recommends.png" width="180" alt="AI recommends the next step for a recent file">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/2.6.0/en/05-search.png" width="180" alt="Search tools, files, recents and flows by voice or text">
+  <img src="assets/screenshots/2.6.0/en/06-tools-flows.png" width="180" alt="All Tools and Flows">
+  <img src="assets/screenshots/2.6.0/en/07-privacy-backup.png" width="180" alt="Offline work with an encrypted local backup">
+  <img src="assets/screenshots/2.6.0/en/08-comparison.png" width="180" alt="Only in Docalto among compared Android apps, November 2026">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/2.6.0/en/09-highlights.png" width="180" alt="The three 2.6.0 highlights">
+  <img src="assets/screenshots/2.6.0/en/10-home.png" width="180" alt="The Studio Clean Home screen">
+  <img src="assets/screenshots/2.6.0/en/11-widgets.png" width="180" alt="Home screen widgets and app shortcuts">
+</p>
+
+Hindi captions for these shots are in [assets/screenshots/2.6.0/hi](assets/screenshots/2.6.0/hi) (`01-phototext.png` and the rest of that set).
+
+<details>
+<summary>In-app screens from 2.6.0 (Home, Search, Tools, Files, Compress, Flows)</summary>
 
 <p align="center">
   <img src="assets/screenshots/2.6.0/01-home.png" width="200" alt="Home with AI recommends">
@@ -165,28 +175,88 @@ Docalto 2.6.0
 </p>
 
 <details>
-<summary>हिन्दी में (Hindi)</summary>
+<summary>हिन्दी में (Hindi in-app screens)</summary>
 
 <p align="center">
-  <img src="assets/screenshots/2.6.0/hi/01-home.png" width="200" alt="Home with AI recommends">
-  <img src="assets/screenshots/2.6.0/hi/02-search.png" width="200" alt="Search by voice or text">
-  <img src="assets/screenshots/2.6.0/hi/03-tools.png" width="200" alt="All tools">
-  <img src="assets/screenshots/2.6.0/hi/04-files.png" width="200" alt="Files">
+  <img src="assets/screenshots/2.6.0/hi/01-home.png" width="200" alt="Home with AI recommends, Hindi">
+  <img src="assets/screenshots/2.6.0/hi/02-search.png" width="200" alt="Search by voice or text, Hindi">
+  <img src="assets/screenshots/2.6.0/hi/03-tools.png" width="200" alt="All tools, Hindi">
+  <img src="assets/screenshots/2.6.0/hi/04-files.png" width="200" alt="Files, Hindi">
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/2.6.0/hi/05-compress-tip.png" width="200" alt="My recommendation on Compress">
-  <img src="assets/screenshots/2.6.0/hi/06-flows.png" width="200" alt="Flows">
-  <img src="assets/screenshots/2.6.0/hi/07-home-dark.png" width="200" alt="Home, dark theme">
+  <img src="assets/screenshots/2.6.0/hi/05-compress-tip.png" width="200" alt="My recommendation on Compress, Hindi">
+  <img src="assets/screenshots/2.6.0/hi/06-flows.png" width="200" alt="Flows, Hindi">
+  <img src="assets/screenshots/2.6.0/hi/07-home-dark.png" width="200" alt="Home, dark theme, Hindi">
 </p>
 
 </details>
 
 <sub>Rendered from the Docalto 2.6.0 app screens.</sub>
 
+</details>
+
+<details>
+<summary>Docalto 2.1.0 screenshots</summary>
+
+<p align="center">
+  <img src="assets/screenshots/2.1.0/home.png" width="200" alt="Home">
+  <img src="assets/screenshots/2.1.0/recent.png" width="200" alt="Recent files at the bottom of Home, with View more">
+  <img src="assets/screenshots/2.1.0/study.png" width="200" alt="Study tools: flashcards">
+  <img src="assets/screenshots/2.1.0/ocr.png" width="200" alt="Text reading in more scripts">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/2.1.0/camera.png" width="200" alt="Pro Camera with Macro and Night">
+  <img src="assets/screenshots/2.1.0/themes.png" width="200" alt="Colour themes">
+  <img src="assets/screenshots/2.1.0/why.png" width="200" alt="Why choose Docalto">
+  <img src="assets/screenshots/2.1.0/why-ai.png" width="200" alt="Online and AI, honestly">
+  <img src="assets/screenshots/2.1.0/whatsnew.png" width="200" alt="What's new in 2.1.0">
+</p>
+
+<sub>2.1.0 screenshots were taken on a OnePlus 12. The Pro Camera picture is the app's camera screen drawn over a sample invoice.</sub>
+
+</details>
+
+<details>
+<summary>Docalto 2.0.1 screenshots</summary>
+
+Light theme
+
+<p align="center">
+  <img src="assets/screenshots/home-light.png" width="200" alt="Home with the Scan button in the bottom bar">
+  <img src="assets/screenshots/scan-light.png" width="200" alt="Scan: a document to PDF, or a QR code or barcode">
+  <img src="assets/screenshots/afterscan-light.png" width="200" alt="After a scan: save as PDF, extract text, sign, compress and more">
+  <img src="assets/screenshots/edit-light.png" width="200" alt="Edit PDF: tap any outlined text to change it">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/link-light.png" width="200" alt="A scanned link asks before it opens">
+  <img src="assets/screenshots/tools-light.png" width="200" alt="All Tools, grouped by job">
+  <img src="assets/screenshots/whatsnew-light.png" width="200" alt="What's new, with the Why Docalto card">
+  <img src="assets/screenshots/settings-light.png" width="200" alt="Settings">
+  <img src="assets/screenshots/about-light.png" width="200" alt="About: Tordroid, Visit website, Contact support">
+</p>
+
+<details>
+<summary>Dark theme</summary>
+
+<p align="center">
+  <img src="assets/screenshots/home-dark.png" width="200" alt="Home, dark theme">
+  <img src="assets/screenshots/afterscan-dark.png" width="200" alt="After a scan, dark theme">
+  <img src="assets/screenshots/edit-dark.png" width="200" alt="Edit PDF, dark theme">
+  <img src="assets/screenshots/settings-dark.png" width="200" alt="Settings, dark theme">
+</p>
+
+</details>
+
+<sub>Screenshots of Docalto 2.0.1 from Google Play, taken on a OnePlus 12: Home, Scan, the next steps after a scan, Edit PDF, the QR link prompt, All Tools, What's new, Settings and About.</sub>
+
+</details>
+
 ## Get Docalto
 
-Docalto **2.6.0** is in **internal and closed testing on Google Play** and will be open to everyone soon. Get it from Google Play, or download the Play-signed universal APK from the [v2.6.0 release](https://github.com/1tordroid/Docalto-Releases/releases/tag/v2.6.0) and check its SHA-256 and signer above.
+Docalto **2.6.0** (versionCode 16) is in **internal and closed testing on Google Play**. Get it from Google Play, or download the Play-signed universal APK from the [v2.6.0 release](https://github.com/1tordroid/Docalto-Releases/releases/tag/v2.6.0) and check its SHA-256 and signer in [Checksums for 2.6.0](#checksums-for-260).
 
 ### Join testing
 
