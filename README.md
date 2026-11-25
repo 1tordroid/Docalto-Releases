@@ -33,7 +33,7 @@
 
 Docalto puts your everyday document jobs in one fast app: read, edit, sign, scan, compress, merge, split and convert PDFs, and open Word, Excel and PowerPoint files too. Your documents are handled on your phone and not uploaded unless you turn on an online feature. There is no account. Most tools are free; a few use one short ad, and Premium removes the ads and the daily limit. While Docalto is in testing, PRO tools are free to use.
 
-> This repository holds Docalto's release notes, changelog and screenshots. It has **no source code and no APK**. Docalto is available only from Google Play.
+> This repository holds Docalto's release notes, changelog and screenshots. It has **no source code and no keys**. Each release from 2.6.0 has the Play-signed universal APK, the same file Google Play delivers, so Google Play updates install over it.
 
 ## Why Docalto
 
@@ -79,6 +79,8 @@ Full, sourced comparison (as of November 2026): [COMPARISON.md](COMPARISON.md). 
 
 ### Checksums for 2.6.0
 
+- Play-signed universal APK `docalto-2.6.0-vc16-universal.apk` (201.2 MB, on the [v2.6.0 release](https://github.com/1tordroid/Docalto-Releases/releases/tag/v2.6.0)), SHA-256: `10f42e39423d651dcdc9a0eb513d4d747a790a18fd50037291996d905df6cc0e`
+- Google Play app signing certificate SHA-256 (the signer of the app you get from Google Play and of this APK): `B7:59:9C:08:92:2C:8D:E8:2B:DD:31:6A:AC:47:76:D0:18:16:56:AC:29:C8:2E:6E:C6:6F:42:19:87:CE:4E:D6`
 - AAB sent to Google Play, SHA-256: `2DB2103138270A3156B60E49424BBCCF2D01AD650C0699D08176FB99AA042807`
 - Upload certificate SHA-256: `99:77:68:99:D8:C2:9C:5F:EC:51:D2:7A:A3:E7:2E:DB:4B:2F:CE:7A:7E:31:D0:B8:BB:19:D8:05:96:30:99:FD`
 
@@ -184,7 +186,7 @@ Docalto 2.6.0
 
 ## Get Docalto
 
-Docalto **2.1.0** is in **internal and closed testing on Google Play** and will be open to everyone soon. It is distributed only through Google Play; there is no APK download.
+Docalto **2.6.0** is in **internal and closed testing on Google Play** and will be open to everyone soon. Get it from Google Play, or download the Play-signed universal APK from the [v2.6.0 release](https://github.com/1tordroid/Docalto-Releases/releases/tag/v2.6.0) and check its SHA-256 and signer above.
 
 ### Join testing
 
