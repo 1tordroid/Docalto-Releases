@@ -2,6 +2,60 @@
 
 All user-facing changes to Docalto, newest first. Docalto is in testing on Google Play. Per-version notes are in [release-notes/](release-notes/) and on the [Releases](https://github.com/1tordroid/Docalto-Releases/releases) page. The changelog is also on the website: https://docalto.tordroid.com/changelog/
 
+## 2.6.0
+
+versionName **2.6.0**, versionCode **16**. 25 November 2026.
+
+- Studio Clean home, files, tools and settings, with Light theme and the phone's font on by default.
+- Online mode is off until you choose Continue. A switch on Home and in Settings covers AI, translation and cloud tools.
+- Use your own key for Gemini, Claude, OpenAI, xAI, or an OpenAI-compatible service. Keys stay encrypted on the phone.
+- Gemini keys: both older AIza keys and new AI Studio auth keys (AQ.) are accepted. Gemini always uses the native Google API. The model list is fetched live, the newest stable flash is the default, and a retired model is replaced automatically.
+- Edit text in photos and scans, with on-device OCR and inpainting, and an optional style reading when Online mode is on.
+- AI steps in flows, a clearer flow builder, and new ready-made flows.
+- Terms of use accepted on first run and from About. The licence forbids commercial reuse, rebranding, or use of the code, design or assets in other apps without written permission.
+- A modified or unofficial copy is blocked, with links to Google Play and tordroid.com. Root, a failed integrity check alone, or a debug build signed with our key does not trigger this.
+- AI recommends on Home: next steps for a recent file, such as OCR for a scan or compressing a large file, worked out on the phone. "Why this?" explains it and "Not now" hides it for that file.
+- My recommendation on Compress: a suggested level with a before and after size estimate, Use this or Keep mine.
+- Search covers every tool, all files, recents and flows, by text or voice. A request that names tools runs in one go, or can go to the AI assistant, which asks before going online.
+- Home widget for Quick Scan and Recent files, and app shortcuts for Scan, Edit image text and Search.
+- Password-protected local backup of settings and flows. Files, keys and purchases are not included.
+- A short "What's new in 2.6" sheet for people updating from 2.5, and a three-screen first-run tour.
+- If the app closes unexpectedly, a short report can be kept on the phone and shared by hand; nothing is sent on its own.
+- Automatic encrypted backup of your Docalto documents, unfinished work, flows and settings in Documents/Docalto. After a clear data or a reinstall, Docalto offers to restore it, showing the date and the number of files and projects, or to delete it after you confirm.
+- Docalto checks Google Play for updates whenever you are online. If a newer version exists, or no check has succeeded for 45 days, it asks you to update first. Your files are never touched by this, and root alone never blocks the app.
+
+
+This repository starts at **1.1.0** (versionCode 2), imported on 1 November 2026. There is no 1.0.x tag or version name in the git history.
+
+Version codes that shipped under a version name are listed with that name. **1.3.0** was development work on this branch. It was renamed to **2.0.0** before any 1.3.0 release. Tag `v1.2.0` points at `9d94be6` on `main`. Tag `v2.0.0` points at `031eeaa`, the commit that set the 2.0.0 name. The closed-testing build also includes the later commits on `feature-upgrade`.
+
+## 2.5.1
+
+versionName **2.5.1**, versionCode **15**. 25 November 2026.
+
+- Fixed: a Google Play install of 2.5.0 closed as soon as it opened, because ONNX Runtime's start-up component was listed in the app even when the layout OCR add-on had not been downloaded.
+
+## 2.5.0
+
+versionName **2.5.0**, versionCode **14**. 24 November 2026. Includes the 2.2.0 fixes.
+
+- New simpler design: a bottom bar with Home, Files, a centre Scan button, Tools and Flow; Settings at the top right; big labelled tiles; Figtree and Noto Sans Devanagari; all seven colour themes with deeper fills and soft icon tints (Lime is now #4A7312 for contrast).
+- Ask across files: up to 100 PDFs indexed on the phone, answers with file and page; optional web-searched answers on your own AI key.
+- Ask about charts and pictures, and Rebuild layout with AI (scans to Word with headings, lists and tables), on your own key.
+- Audio overview: two voices talk through a PDF; natural voices from a Gemini or ChatGPT key, otherwise the phone's voices.
+- Layout OCR (PaddleOCR) reads columns and mixed scripts in order. On Google Play it comes as an add-on from Play on first use, with its size shown before the download (about 31 MB, plus about 7 MB for each extra script), so the app itself stays near the 2.2.0 size. The website copy keeps the one-time checked download.
+- Pen: pen-only mode, pressure, and Snap shapes (lines, boxes and ovals). Reading view spacing, width, serif and justify. Tabs for open files.
+- Accessibility check with fixes and a tag editor; Print check for PDF/X-4 basics.
+- Signatures with a timestamp now add long-term validation (certificates, revocation data and a document timestamp).
+- Forms: totals and formulas update as you type; static XFA forms fill everywhere; fill saves as an incremental update.
+- Compare: Word, text, sheet and slides files as well as PDFs, and a Word file with tracked changes.
+- Batch: chain several steps on each file with name and size filters.
+- "Docalto: Save as PDF" in every app's Print menu, saved to Downloads/Docalto.
+- Work and school devices: administrators can turn off online features, online AI, web search, downloads, or limit AI providers (managed configuration).
+- Online AI retries briefly on busy or failed connections and sends smaller page pictures on mobile data.
+- Fixed: saving many photos as one PDF could fail on large sets.
+- Large-file benchmark published in docs/BENCHMARK.md.
+
 ## 2.1.0
 
 versionCode 12. Released 24 November 2026 to internal and closed testing on Google Play.

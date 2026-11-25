@@ -14,6 +14,13 @@ Docalto is distributed **only through Google Play**: https://play.google.com/sto
 
 This repository has no APK or app files, and Tordroid does not publish Docalto APKs anywhere else. A copy from any other source is not ours. The app checks that it was installed from Google Play and warns you if the copy was modified.
 
+## Checksums for 2.6.0
+
+- AAB sent to Google Play, SHA-256: `2DB2103138270A3156B60E49424BBCCF2D01AD650C0699D08176FB99AA042807`
+- Upload certificate SHA-256: `99:77:68:99:D8:C2:9C:5F:EC:51:D2:7A:A3:E7:2E:DB:4B:2F:CE:7A:7E:31:D0:B8:BB:19:D8:05:96:30:99:FD`
+
+Google Play re-signs the app with its own app signing key. More: https://docalto.tordroid.com/security/
+
 ## Reporting a security problem
 
 Please report security issues privately, not in a public issue:
