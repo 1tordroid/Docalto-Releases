@@ -56,6 +56,13 @@ We compared Docalto against both **leading Android apps** (25 November 2026) and
 - **All 2.6 screens in 15 app languages**, including Marathi, Gujarati, Bengali, Punjabi, Odia, Tamil, Telugu, Kannada, Malayalam, Arabic, Urdu, Russian and Simplified Chinese alongside English and Hindi.
 - **Friendlier Terms of use** (Good to know, Our responsibility, If these terms change), keeping the same legal effect.
 
+### Checksums for 2.6.1
+
+- Play-signed universal APK `docalto-2.6.1-vc17-universal.apk` (201.8 MB, on the [v2.6.1 release](https://github.com/1tordroid/Docalto-Releases/releases/tag/v2.6.1)), SHA-256: `def9fb699333ea2cf3451271f507f7cc27f4c0e1edaac63a332fa4cc026bb949`
+- Google Play app signing certificate SHA-256 (the signer of the app you get from Google Play and of this APK): `B7:59:9C:08:92:2C:8D:E8:2B:DD:31:6A:AC:47:76:D0:18:16:56:AC:29:C8:2E:6E:C6:6F:42:19:87:CE:4E:D6`
+- AAB sent to Google Play, SHA-256: `85f23c65b47d7fbcaa4aca4f970ebae2e6b886a5f49063663411d4591e7bc071`
+- Upload certificate SHA-256: `99:77:68:99:D8:C2:9C:5F:EC:51:D2:7A:A3:E7:2E:DB:4B:2F:CE:7A:7E:31:D0:B8:BB:19:D8:05:96:30:99:FD`
+
 ## New in 2.6.0
 
 - **Edit text in photos:** change words in a scanned page or a photo in your PDF, and keep the original font, size and colour. OCR and inpainting run on the phone. Style reading is available when Online mode is on.
@@ -263,7 +270,7 @@ Light theme
 
 ## Get Docalto
 
-Docalto **2.6.0** (versionCode 16) is in **internal and closed testing on Google Play**. Get it from Google Play, or download the Play-signed universal APK from the [v2.6.0 release](https://github.com/1tordroid/Docalto-Releases/releases/tag/v2.6.0) and check its SHA-256 and signer in [Checksums for 2.6.0](#checksums-for-260).
+Docalto **2.6.1** (versionCode 17) is in **closed testing (Alpha) on Google Play** and has been sent for review. Get it from Google Play, or download the Play-signed universal APK from the [v2.6.1 release](https://github.com/1tordroid/Docalto-Releases/releases/tag/v2.6.1) and check its SHA-256 and signer in [Checksums for 2.6.1](#checksums-for-261).
 
 ### Join testing
 
