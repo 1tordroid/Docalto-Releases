@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>Edit text in PDF photos. Keep the original look.</b><br>
-  Turn on Online AI when you want it — it stays off until you allow it. Bring your own key for Gemini, Claude, OpenAI, Grok, or an OpenAI-compatible model. 75 tools, on your phone. No account. No upload. Developed by <a href="https://github.com/1tordroid">Rao Sahab (Tordroid)</a>.
+  Turn on Online AI when you want it — it stays off until you allow it. Bring your own key for Gemini, Claude, OpenAI, Grok, or an OpenAI-compatible model. 75 tools, on your phone. No account. No upload. Developed by Tordroid · GitHub: <a href="https://github.com/1tordroid">1tordroid</a> (https://github.com/1tordroid) · <a href="https://tordroid.com">https://tordroid.com</a>.
 </p>
 
 <p align="center">
