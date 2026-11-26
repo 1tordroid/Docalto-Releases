@@ -28,26 +28,33 @@
 </p>
 
 <p align="center">
-  <img src="assets/feature-graphic.png" width="820" alt="Docalto 2.6.0: edit photo text, optional Online AI, and your own AI key">
+  <img src="assets/feature-graphic.png" width="820" alt="Docalto 2.6.1: edit photo text, optional Online AI, and your own AI key">
 </p>
 
 1. **Edit text in photos.** Change words in a scanned page or a photo in your PDF, and keep the original font, size and colour. OCR and inpainting run on the phone.
 2. **Online AI, off until you allow it.** A switch covers AI, translation and cloud tools. When you turn it on, AI can step into tools, flows and search.
 3. **Your own AI key.** Gemini, Claude, OpenAI, Grok (xAI), or an OpenAI-compatible model. Keys stay encrypted on the phone. No Docalto account, and documents are not uploaded.
 
-The rest of the 2.6.0 toolkit, including Flow, backup, the update check and 75 All Tools entries, is listed below.
+The rest of the 2.6.1 toolkit, including Flow, backup, the update check and 75 All Tools entries, is listed below.
 
 > This repository holds Docalto's release notes, changelog, comparison and screenshots. It has **no source code and no keys**. Each release from 2.6.0 has the Play-signed universal APK, the same file Google Play delivers, so Google Play updates install over it.
 
-## Why Docalto
+## Why Docalto (Android & PC comparison)
 
-Docalto is an offline-first PDF toolkit and document scanner for Android. There is no account, and documents are not uploaded unless you turn on an online feature. Among the leading Android document apps compared in November 2026, we did not find this combination in the same form:
+Docalto is an offline-first PDF toolkit and document scanner for Android. There is no account, and documents are not uploaded unless you turn on an online feature.
 
-- Edit text in photos and scans on the phone, keeping the original look.
-- Online AI that can help in tools, flows and search, off until you allow it, with a key you supply for Gemini, Claude, OpenAI or xAI.
-- Plus File Rescue and rare image formats, a labelled fill for a cut-off photo, and offline signature checks against India's CCA roots.
+We compared Docalto against both **leading Android apps** (25 November 2026) and **leading PC software** (26 November 2026: Acrobat Pro, FineReader PDF, Foxit PDF Editor, PDFelement, Nitro PDF Pro, PDF24 Creator, WPS Office and Microsoft 365 Word):
 
-This is not a claim that no other product on earth has a related function. These tools are common on computers and on cloud websites. A full, sourced comparison (as of November 2026): [COMPARISON.md](COMPARISON.md). Docalto has no iOS or desktop app and no cloud sync, and it does not replace a desktop suite or a full office suite.
+- **Where PC tools go further:** Acrobat Pro, FineReader PDF, Foxit, PDFelement and Nitro go further as professional desktop PDF or OCR editors; WPS Office and Microsoft 365 Word are fuller office suites. Foxit's official 2026.2 pages describe Local AI on the device and a customer-configured OpenAI-compatible model. PDF24 Creator is a free Windows toolkit that officially keeps files on the PC, with no account.
+- **What stands for Docalto on Android:** Among the leading Android apps we compared in November 2026, we did not find this on-device combination: photo-text editing, Online AI off until you allow it with your own key (Gemini, Claude, OpenAI, Grok, or OpenAI-compatible), File Rescue and rare image formats, a labelled fill ("Filled in, not recovered"), and offline signature checks against India's CCA roots.
+
+“Only in Docalto” stays limited to the compared Android apps, not desktop software. Full sourced tables and URLs: [COMPARISON.md](COMPARISON.md). Docalto has no iOS or desktop app and no cloud sync.
+
+## New in 2.6.1
+
+- **Android + PC comparison** in Why choose Docalto, notes, and [COMPARISON.md](COMPARISON.md).
+- **All 2.6 screens in 15 app languages**, including Marathi, Gujarati, Bengali, Punjabi, Odia, Tamil, Telugu, Kannada, Malayalam, Arabic, Urdu, Russian and Simplified Chinese alongside English and Hindi.
+- **Friendlier Terms of use** (Good to know, Our responsibility, If these terms change), keeping the same legal effect.
 
 ## New in 2.6.0
 
@@ -134,29 +141,29 @@ All versions: [CHANGELOG.md](CHANGELOG.md) · [Releases](https://github.com/1tor
 
 ## Screenshots
 
-Docalto 2.6.0 — highlights
+Docalto 2.6.1 — highlights
 
 <p align="center">
-  <img src="assets/screenshots/2.6.0/en/01-phototext.png" width="180" alt="Edit text in a photo inside a PDF, keeping the original look">
-  <img src="assets/screenshots/2.6.0/en/02-online-ai.png" width="180" alt="Online AI stays off until you allow it, and can help in tools and search">
-  <img src="assets/screenshots/2.6.0/en/03-api-key.png" width="180" alt="Bring your own Gemini, Claude, OpenAI or Grok key">
-  <img src="assets/screenshots/2.6.0/en/04-recommends.png" width="180" alt="AI recommends the next step for a recent file">
+  <img src="assets/screenshots/2.6.1/en/01-phototext.png" width="180" alt="Edit text in a photo inside a PDF, keeping the original look">
+  <img src="assets/screenshots/2.6.1/en/02-online-ai.png" width="180" alt="Online AI stays off until you allow it, and can help in tools and search">
+  <img src="assets/screenshots/2.6.1/en/03-api-key.png" width="180" alt="Bring your own Gemini, Claude, OpenAI or Grok key">
+  <img src="assets/screenshots/2.6.1/en/04-recommends.png" width="180" alt="AI recommends the next step for a recent file">
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/2.6.0/en/05-search.png" width="180" alt="Search tools, files, recents and flows by voice or text">
-  <img src="assets/screenshots/2.6.0/en/06-tools-flows.png" width="180" alt="All Tools and Flows">
-  <img src="assets/screenshots/2.6.0/en/07-privacy-backup.png" width="180" alt="Offline work with an encrypted local backup">
-  <img src="assets/screenshots/2.6.0/en/08-comparison.png" width="180" alt="Only in Docalto among compared Android apps, November 2026">
+  <img src="assets/screenshots/2.6.1/en/05-search.png" width="180" alt="Search tools, files, recents and flows by voice or text">
+  <img src="assets/screenshots/2.6.1/en/06-tools-flows.png" width="180" alt="All Tools and Flows">
+  <img src="assets/screenshots/2.6.1/en/07-privacy-backup.png" width="180" alt="Offline work with an encrypted local backup">
+  <img src="assets/screenshots/2.6.1/en/08-comparison.png" width="180" alt="How Docalto compares with leading Android apps and PC software, November 2026">
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/2.6.0/en/09-highlights.png" width="180" alt="The three 2.6.0 highlights">
-  <img src="assets/screenshots/2.6.0/en/10-home.png" width="180" alt="The Studio Clean Home screen">
-  <img src="assets/screenshots/2.6.0/en/11-widgets.png" width="180" alt="Home screen widgets and app shortcuts">
+  <img src="assets/screenshots/2.6.1/en/09-highlights.png" width="180" alt="The three 2.6.0 highlights">
+  <img src="assets/screenshots/2.6.1/en/10-home.png" width="180" alt="The Studio Clean Home screen">
+  <img src="assets/screenshots/2.6.1/en/11-widgets.png" width="180" alt="Home screen widgets and app shortcuts">
 </p>
 
-Hindi captions for these shots are in [assets/screenshots/2.6.0/hi](assets/screenshots/2.6.0/hi) (`01-phototext.png` and the rest of that set).
+Hindi captions for these shots are in [assets/screenshots/2.6.1/hi](assets/screenshots/2.6.1/hi) (`01-phototext.png` and the rest of that set).
 
 <details>
 <summary>In-app screens from 2.6.0 (Home, Search, Tools, Files, Compress, Flows)</summary>
@@ -178,16 +185,16 @@ Hindi captions for these shots are in [assets/screenshots/2.6.0/hi](assets/scree
 <summary>हिन्दी में (Hindi in-app screens)</summary>
 
 <p align="center">
-  <img src="assets/screenshots/2.6.0/hi/01-home.png" width="200" alt="Home with AI recommends, Hindi">
-  <img src="assets/screenshots/2.6.0/hi/02-search.png" width="200" alt="Search by voice or text, Hindi">
-  <img src="assets/screenshots/2.6.0/hi/03-tools.png" width="200" alt="All tools, Hindi">
-  <img src="assets/screenshots/2.6.0/hi/04-files.png" width="200" alt="Files, Hindi">
+  <img src="assets/screenshots/2.6.1/hi/01-home.png" width="200" alt="Home with AI recommends, Hindi">
+  <img src="assets/screenshots/2.6.1/hi/02-search.png" width="200" alt="Search by voice or text, Hindi">
+  <img src="assets/screenshots/2.6.1/hi/03-tools.png" width="200" alt="All tools, Hindi">
+  <img src="assets/screenshots/2.6.1/hi/04-files.png" width="200" alt="Files, Hindi">
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/2.6.0/hi/05-compress-tip.png" width="200" alt="My recommendation on Compress, Hindi">
-  <img src="assets/screenshots/2.6.0/hi/06-flows.png" width="200" alt="Flows, Hindi">
-  <img src="assets/screenshots/2.6.0/hi/07-home-dark.png" width="200" alt="Home, dark theme, Hindi">
+  <img src="assets/screenshots/2.6.1/hi/05-compress-tip.png" width="200" alt="My recommendation on Compress, Hindi">
+  <img src="assets/screenshots/2.6.1/hi/06-flows.png" width="200" alt="Flows, Hindi">
+  <img src="assets/screenshots/2.6.1/hi/07-home-dark.png" width="200" alt="Home, dark theme, Hindi">
 </p>
 
 </details>

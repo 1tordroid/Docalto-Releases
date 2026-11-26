@@ -4,6 +4,14 @@ All user-facing changes to Docalto, newest first. Per-version notes are in [rele
 
 This repository starts at **1.1.0** (versionCode 2), imported on 1 November 2026. There is no 1.0.x tag or version name in the git history. Version codes that shipped under a version name are listed with that name. **1.3.0** was development work on this branch. It was renamed to **2.0.0** before any 1.3.0 release.
 
+## 2.6.1
+
+versionName **2.6.1**, versionCode **17**. 26 November 2026 (Asia/Calcutta, IST).
+
+- Why choose Docalto in Settings is refreshed with the November 2026 comparison against both leading Android apps and PC software (Acrobat Pro, FineReader PDF, Foxit, PDFelement, Nitro, PDF24 Creator, WPS Office and Microsoft 365 Word), states where desktop tools go further, and keeps “Only in Docalto” limited to the Android apps compared.
+- The screens added in 2.6 are translated into all 15 app languages: Marathi, Gujarati, Bengali, Punjabi, Odia, Tamil, Telugu, Kannada, Malayalam, Arabic, Urdu, Russian and Simplified Chinese, alongside English and Hindi.
+- Terms of use: sections 6 to 8 (Good to know, Our responsibility, If these terms change) use friendlier, clearer wording with the same legal effect.
+
 ## 2.6.0
 
 versionName **2.6.0**, versionCode **16**. 25 November 2026 (Asia/Calcutta, IST).
