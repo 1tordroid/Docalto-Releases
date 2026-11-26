@@ -142,6 +142,11 @@ All versions: [CHANGELOG.md](CHANGELOG.md) · [Releases](https://github.com/1tor
 Docalto 2.6.1 — highlights
 
 <p align="center">
+  <img src="assets/screenshots/2.6.1/en/00a-photo-text-edit.png" width="220" alt="Before and after editing text inside a PDF photo, keeping the original font, size, colour and style">
+  <img src="assets/screenshots/2.6.1/en/00b-ai-key-accuracy.png" width="220" alt="Settings API key and three-step accuracy comparison: Offline, Online, Your AI API">
+</p>
+
+<p align="center">
   <img src="assets/screenshots/2.6.1/en/01-phototext.png" width="180" alt="Edit text in a photo inside a PDF, keeping the original look">
   <img src="assets/screenshots/2.6.1/en/02-online-ai.png" width="180" alt="Online AI stays off until you allow it, and can help in tools and search">
   <img src="assets/screenshots/2.6.1/en/03-api-key.png" width="180" alt="Bring your own Gemini, Claude, OpenAI or Grok key">
@@ -161,7 +166,7 @@ Docalto 2.6.1 — highlights
   <img src="assets/screenshots/2.6.1/en/11-widgets.png" width="180" alt="Home screen widgets and app shortcuts">
 </p>
 
-Hindi captions for these shots are in [assets/screenshots/2.6.1/hi](assets/screenshots/2.6.1/hi) (`01-phototext.png` and the rest of that set).
+Hindi captions for these shots are in [assets/screenshots/2.6.1/hi](assets/screenshots/2.6.1/hi) (`00a-photo-text-edit.png`, `00b-ai-key-accuracy.png`, `01-phototext.png` and the rest of that set).
 
 <details>
 <summary>In-app screens from 2.6.0 (Home, Search, Tools, Files, Compress, Flows)</summary>
