@@ -271,7 +271,13 @@ Docalto **2.6.1** (versionCode 17) is in **closed testing (Alpha) on Google Play
 ### Join testing
 
 1. Join the tester group **[docalto-testers](https://groups.google.com/g/docalto-testers)** with your Google account.
-2. Open the **[Docalto test page](https://play.google.com/apps/testing/com.tordroid.docalto)**, tap **Become a tester**, then install Docalto from **[Google Play](https://play.google.com/store/apps/details?id=com.tordroid.docalto)**.
+2. Open the **[Docalto test page](https://play.google.com/apps/testing/com.tordroid.docalto)** and tap **Become a tester** (opt-in) with your Google account.
+3. Install the **TEST** version of Docalto from the Play Store with that same account. Do not install the public version from the regular Play Store listing.
+4. Keep it installed for 14 days, and please open the app once every day.
+
+Please do **NOT** install the public version; only the test version installed after opting in counts toward the 12 testers.
+
+🙏 Your help only counts, and Docalto can only pass Google Play Console review, if you tap **Become a tester** and download the TEST (testing) version. Please don't tap **Install** on the public version.
 
 Requires Android 8.0 or later.
 
